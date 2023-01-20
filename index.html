@@ -4,7 +4,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" >
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" ></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.min.js" integrity="sha384-Atwg2Pkwv9vp0ygtn1JAojH0nYbwNJLPhwyoVbhoPwBhjQPR5VtM2+xf0Uwh9KtT" crossorigin="anonymous"></script>
     <script src="https://kit.fontawesome.com/49736e1bab.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/style.css">
     <title>Document</title>
@@ -16,50 +18,55 @@
                 <div class="col-sm-8">
                     <div class="card left">
                         <div class="card-body intro">
+                            <!-- LEFT BODY -->
                             <h6 class="card-title">Past Questions</h6>
                             <h3 class="card-title">All Past Questions</h3>
                             <p class="card-text">We Will Open The World Of Knowledge For You! This is the latest online examination system you will ever need!</p>
-                            <div class="search">
-                                <div class="dropdown dd1">
+                            
+                            <!-- SEARCH OPTIONS  -->
+                            <div class="container row g-0">
+                                <div class="dropdown dd1 col-xl-3 col-l-3 col-md-7 col-sm-9">
                                     <select class="dropbtn" name="" id="">
-                                        <option value="">
-                                            <button>Specify Year <i class="fa-solid fa-chevron-down"></i></button>
-                                        </option>
-                                        <option class="dropdown-content c1" value="">1988</option>
-                                        <option class="dropdown-content c1" value="">1989</option>
-                                        <option class="dropdown-content c1" value="">1990</option>
+                                        <option value="">Specify Year <i class="fa-solid fa-chevron-down"></i></option>
+                                        <option style="font-size: 0.1pt; background-color: lightgray;" disabled>&nbsp;</option>
+                                        <option value="">1988</option>
+                                        <option value="">1989</option>
+                                        <option value="">1990</option>
                                     </select>
                                 </div>
-                                <div class="dropdown dd2">
+                                <div class="dropdown dd2 col-xl-4 col-l-4 col-md-7 col-sm-9">
                                     <select class="dropbtn" name="" id="">
-                                        <option value="">
-                                            <button>Specify Subject<i class="fa-solid fa-chevron-down"></i></button>
-                                        </option>
-                                        <option class="dropdown-content c2" value="">Mathematics</option>
-                                        <option class="dropdown-content c2" value="">English</option>
-                                        <option class="dropdown-content c2" value="">Biology</option>
+                                        <option value="">Specify Subject<i class="fa-solid fa-chevron-down"></i></option>
+                                        <option style="font-size: 0.1pt; background-color: lightgray;" disabled>&nbsp;</option>
+                                        <option value="">Mathematics</option>
+                                        <option value="">English</option>
+                                        <option value="">Biology</option>
                                     </select>
                                 </div>
-                                <div class="dropdown dd3">
+                                <div class="dropdown dd3 col-xl-4 col-l-4 col-md-7 col-sm-9">
                                     <select class="dropbtn" name="" id="">
-                                        <option value="">
-                                            <button>Specify Exam Type <i class="fa-solid fa-chevron-down"></i></button>
-                                        </option>
-                                        <option class="dropdown-content c3" value="">NECO</option>
-                                        <option class="dropdown-content c3" value="">WAEC</option>
-                                        <option class="dropdown-content c3" value="">JAMB</option>
+                                        <option value="">Specify Exam Type <i class="fa-solid fa-chevron-down"></i></option>
+                                        <option style="font-size: 0.1pt; background-color: lightgray;" disabled>&nbsp;</option>
+                                        <option value="">NECO</option>
+                                        <option value="">WAEC</option>
+                                        <option value="">JAMB</option>
                                     </select>
                                 </div>
-                           
-                                <a href=""><button class="sBtn"><i class="fa-solid fa-magnifying-glass" style="color: white;"></i></button></a>
+
+                                <!-- SEARCH BUTTON  -->
+                                <div class="sBtnCont col-xl-1 col-l-1 col-md-1 col-sm-1">
+                                    <a href=""><button class="sBtn"><i class="fa-solid fa-magnifying-glass" style="color: white;"></i></button></a>
+                                </div>
                             </div>
                         </div>
                     </div>
-                    
+                
+                <!-- RIGHT BODY  -->
                 </div>
                 <div class="col-sm-3">
                     <div class="card right">
                         <div class="card-body categories">
+                            <!-- CATEGORIES  -->
                             <div class="content">
                                 <h5 class="card-title">All Categories</h5>
                                 <p class="card-text"><a href="">NOUN</a></p>
@@ -68,6 +75,8 @@
                                 <p class="card-text"><a href="">WAEC-SSCE</a></p>
                                 <p class="card-text"><a href="">WAEC-UTME</a></p>
                             </div>
+
+                            <!-- SUBJECT  -->
                             <div class="content">
                                 <h5 class="card-title">All Subjects</h5>
                                 <p class="card-text"><a href="">MARKETING</a></p>
